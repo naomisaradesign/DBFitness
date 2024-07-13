@@ -1,0 +1,39 @@
+a{
+	text-decoration: none; color: #ffffff;
+}
+
+.logo{
+    height: 40px;
+}
+
+.right{
+    float: right;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #264f26;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px 16px 16px;
+    text-decoration: none;
+    line-height: 40px;
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color: #db6a1f;}
+    
+  ul.topnav li.right {float: right;}
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {display: flex; flex-direction: column; justify-content: center; align-items: center;}
+  }
